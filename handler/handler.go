@@ -1,6 +1,8 @@
 package handler
 
 import (
+	"encoding/base64"
+	"fmt"
 	"github.com/boombuler/barcode"
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
@@ -25,6 +27,7 @@ func Cors() gin.HandlerFunc {
 	}
 }
 func Show(c *gin.Context){
+	fmt.Println("???")
 	url := c.Query("url")
 	if url == ""{
 		url = "123"
@@ -36,6 +39,10 @@ func Show(c *gin.Context){
 	file, _ := os.Create(fileName)
 	defer file.Close()
 	_ = png.Encode(file, qrCode)
-	c.Header("Content-Type", "image/jpg")
-	c.File(fileName)
+	buffer := make([]byte,500000)
+	n,_ := file.Read(buffer)
+	c.Header("Content-Type", "image/png")
+	res := base64.StdEncoding.EncodeToString(buffer[:n])
+	fmt.Println(res)
+	c.String(200,res)
 }

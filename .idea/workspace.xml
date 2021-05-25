@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../borrowLogs/borrowLog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dockerenv/temp.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../product/go-product" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/.idea/study.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/.idea/vcs.xml" afterDir="false" />
@@ -90,6 +89,13 @@
       <change beforePath="$PROJECT_DIR$/../product/proto/product.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../product/proto/product.pb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/proto/product.pb.micro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../product/proto/product.pb.micro.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/proto/product.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../product/proto/product.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-qrcode" beforeDir="false" afterPath="$PROJECT_DIR$/go-qrcode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workApi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workApi/handler/workApi.go" beforeDir="false" afterPath="$PROJECT_DIR$/../workApi/handler/workApi.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workApi/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../workApi/main.go" afterDir="false" />
@@ -128,12 +134,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1t1InTI0GUzbtmX2ocWrmwqViLH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -179,6 +188,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
