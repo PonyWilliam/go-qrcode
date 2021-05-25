@@ -10,18 +10,7 @@
       <change afterPath="$PROJECT_DIR$/../borrowLogs/borrowLog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dockerenv/temp.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../product/go-product" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qrcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/.idea/study.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/.idea/vcs.xml" afterDir="false" />
